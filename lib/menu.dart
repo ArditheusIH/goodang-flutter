@@ -5,7 +5,7 @@ class MyHomePage extends StatelessWidget {
 
   final List<ShopItem> items = [
     ShopItem("Lihat Item", Icons.checklist, const Color.fromARGB(255, 63, 181, 81)),
-    ShopItem("Tambah Item", Icons.add_shopping_cart,const Color.fromARGB(255, 0, 0, 246)),
+    ShopItem("Tambah Item", Icons.add_box,const Color.fromARGB(255, 0, 0, 246)),
     ShopItem("Logout", Icons.logout, const Color.fromARGB(255, 255, 0, 0)),
 ];
 
@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
                 padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
                 // Widget Text untuk menampilkan tulisan dengan alignment center dan style yang sesuai
                 child: Text(
-                  'PBP Shop', // Text yang menandakan toko
+                  'Goodang Warehouse', // Text yang menandakan toko
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 30,
